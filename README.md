@@ -1,13 +1,13 @@
-### React Redux Store App
-
-## Available Scripts
+## React Redux Store App
+##  Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### START
 ~~~
 npm start
 ~~~
+This will run both the server and the client in parallel.
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view the client in the browser.
