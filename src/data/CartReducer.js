@@ -11,7 +11,7 @@ export const CartReducer = (storeData, action) => {
             if (existing) {
                 existing.quantity += q;
             } else {
-                newStore.cart = [ ...newStore.cart, action.payload ];
+                newStore.cart = [...newStore.cart, action.payload];
             }
             newStore.cartItems += q;
             newStore.cartPrice += p.price * q;
