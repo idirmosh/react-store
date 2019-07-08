@@ -1,4 +1,4 @@
-import { DataTypes } from "./Types";
+import { DataTypes } from './Types';
 
 const protocol = 'http';
 const hostname = 'localhost';

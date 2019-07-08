@@ -1,6 +1,6 @@
 const faker = require('faker');
 const data = [];
-const categories = ['WtaterSports', 'Soccer', 'Chess', 'Running'];
+const categories = ['watersports', 'Soccer', 'Chess', 'Running'];
 
 faker.seed(100);
 for (let i = 1; i <= 503; i++) {
