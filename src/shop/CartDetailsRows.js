@@ -23,7 +23,7 @@ export class CartDetailsRows extends Component{
                         <td>
                             <button className='btn btn-sm btn-danger'
                                     onClick={ () => this.removeFromCart(item.product)}>
-                                Rmove
+                                Remove
                             </button>
                         </td>
                     </tr>

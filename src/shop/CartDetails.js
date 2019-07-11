@@ -26,7 +26,7 @@ export class CartDetails extends Component{
                 </tbody>
             </table>
             <div className='text-center'>
-                <Link className='btn btn-primary m-1' tp='/shop'>
+                <Link className='btn btn-primary m-1' to='/shop'>
                     Continue Shopping
                 </Link>
                 <Link className={this.getLinkClasses()} to='/shop/checkout'>
